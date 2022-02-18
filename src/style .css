@@ -8,9 +8,11 @@
 }
  
  #display{
-     color: white;
-      padding: 60px 0px 1px 4px  ;
+    
+    color: white;
+      padding: 65px 0px 1px 4px  ;
      background-color :rgb(36, 35, 35);
+     text-align: right;
      
  }
 
@@ -64,5 +66,13 @@
     color: #fff;
  
  }
+
+ .dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
  
