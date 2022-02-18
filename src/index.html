@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="style .css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
-    
+    <div class="calc" >
+            
+            <form>
+                <input  id="display" type="text" >
+            </form>
+            <table  border ="0.5" >
+                <tr>
+                    <td><a class="btnCalc2" id="clear" href="#">AC</a> </td>
+                    <td><a class="btnCalc2" onclick="insert('-')" href="#">+/-</a></td>
+                   
+                    <td><a class="btnCalc2" onclick="insert('%')" href="#">%</a> </td>
+                    <td><a class="btnCalc1" onclick="insert('/')" href="#">÷</a> </td>
+                    
+                </tr>
+                <tr>
+                    <td><a class="btnCalc" onclick="insert(7)" href="#">7</a> </td>
+                    <td><a class="btnCalc" onclick="insert(8)" href="#">8</a> </td>
+                    <td><a class="btnCalc" onclick="insert(9)" href="#">9</a> </td>
+                    <td><a class="btnCalc1" onclick="insert('*')" href="#">x</a> </td>
+
+                   
+
+                </tr>
+                <tr>
+                    <td><a class="btnCalc" onclick="insert(4)" href="#">4</a> </td>
+                    <td><a class="btnCalc" onclick="insert(5)" href="#">5</a> </td>
+                    <td><a class="btnCalc" onclick="insert(6)" href="#">6</a> </td>
+                    <td><a class="btnCalc1" onclick="insert('-')" href="#">-</a> </td>
+
+                    
+
+                </tr>
+                <tr>
+                    <td><a class="btnCalc" onclick="insert(1)" href="#">1</a> </td>
+                    <td><a class="btnCalc" onclick="insert(2)" href="#">2</a> </td>
+                    <td><a class="btnCalc" onclick="insert(3)" href="#">3</a> </td>
+                    <td><a class="btnCalc1" onclick="insert('+')" href="#">+</a> </td>
+
+
+                </tr>
+                <tr>
+                    <td colspan="2"><a  class="btnCalc" onclick="insert(0)" href="#" style="width: 166px;" >0</a> </td>
+                    <td><a  class="btnCalc" onclick="insert('.')" href="#" >.</a> </td>
+                    <td><a class="btnCalc1"  onclick="equal()" href="#" >=</a> </td>
+                    
+
+                </tr>
+                
+            </table>
+          
+
+    </div>
+ <script src="myscript.js" ></script>
 </body>
 </html>

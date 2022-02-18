@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+    font-size: 30px;
+} 
+.calc{
+    margin: 3em 10em 2em 15em;
+}
+ 
+ #display{
+     color: white;
+      padding: 60px 0px 1px 4px  ;
+     background-color :rgb(36, 35, 35);
+     
+ }
+
+ .btnCalc{
+    width: 68px;
+    height: 50px;
+      padding:   8px 14px 10px;
+    
+    cursor: pointer;
+    background-color:  grey;
+    display: block;
+    
+    
+    text-decoration: none;
+    
+    color: #fff;
+    
+    
+ }
+ table{
+     background-color:  rgb(36, 34, 34);
+ }
+
+ .btnCalc1{
+    width: 68px;
+    height: 50px;
+      padding:   8px 14px 10px;
+    
+    cursor: pointer;
+    background-color:  rgb(224, 152, 17);
+    display: block;
+    
+    
+    text-decoration: none;
+    
+    color: #fff;
+    
+ }
+ .btnCalc2{
+    width: 68px;
+    height: 50px;
+    padding:   8px 14px 10px;
+    
+    cursor: pointer;
+    background-color:  rgb(46, 46, 43);
+    display: block;
+    
+    
+    text-decoration: none;
+    
+    color: #fff;
+ 
+ }
+
+ 
