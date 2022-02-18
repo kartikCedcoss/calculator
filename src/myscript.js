@@ -4,9 +4,7 @@ function insert(num) {
 function equal() {
   $("#display").val(eval($("#display").val()));
 }
-function clear() {
-  $("#display").val("");
-}
+
 
 
 $("#clear").bind("click", function () {
