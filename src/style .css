@@ -1,78 +1,80 @@
-*{
-    margin: 0;
-    padding:0;
-    font-size: 30px;
-} 
-.calc{
-    margin: 3em 10em 2em 15em;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
 }
- 
- #display{
-    
-    color: white;
-      padding: 65px 0px 1px 4px  ;
-     background-color :rgb(36, 35, 35);
-     text-align: right;
-     
- }
+.calc {
+  border-radius: 10px;
+  margin: 3em 10em 2em 15em;
+}
 
- .btnCalc{
-    width: 68px;
-    height: 50px;
-      padding:   8px 14px 10px;
-    
-    cursor: pointer;
-    background-color:  grey;
-    display: block;
-    
-    
-    text-decoration: none;
-    
-    color: #fff;
-    
-    
- }
- table{
-     background-color:  rgb(36, 34, 34);
- }
+#display {
+  color: white;
+  padding: 65px 0px 1px 4px;
+  background-color: rgb(36, 35, 35);
+  text-align: right;
+}
 
- .btnCalc1{
-    width: 68px;
-    height: 50px;
-      padding:   8px 14px 10px;
-    
-    cursor: pointer;
-    background-color:  rgb(224, 152, 17);
-    display: block;
-    
-    
-    text-decoration: none;
-    
-    color: #fff;
-    
- }
- .btnCalc2{
-    width: 68px;
-    height: 50px;
-    padding:   8px 14px 10px;
-    
-    cursor: pointer;
-    background-color:  rgb(46, 46, 43);
-    display: block;
-    
-    
-    text-decoration: none;
-    
-    color: #fff;
- 
- }
+.btnCalc {
+  width: 68px;
+  height: 50px;
+  padding: 8px 14px 10px;
 
- .dot {
-    height: 20px;
-    width: 20px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  }
+  cursor: pointer;
+  background-color: grey;
+  display: block;
 
- 
+  text-decoration: none;
+
+  color: #fff;
+}
+table {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(36, 34, 34);
+}
+
+.btnCalc1 {
+  width: 68px;
+  height: 50px;
+  padding: 8px 14px 10px;
+
+  cursor: pointer;
+  background-color: rgb(224, 152, 17);
+  display: block;
+
+  text-decoration: none;
+
+  color: #fff;
+}
+.btnCalc2 {
+  width: 68px;
+  height: 50px;
+  padding: 8px 14px 10px;
+
+  cursor: pointer;
+  background-color: rgb(46, 46, 43);
+  display: block;
+
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotDiv {
+  background-color: rgb(36, 35, 35);
+  width: 64%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
